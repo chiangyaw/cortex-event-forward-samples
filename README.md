@@ -21,7 +21,40 @@ The two are easy to tell apart programmatically: `cwp_packages_raw` events have
 `_vendor == "CWP"`; `xdr_data` events do not carry that envelope and instead have
 integer `event_type` + `agent_id`.
 
-## Layout
+## Source: cloud-storage bucket layout
+
+Cortex writes forwarded events to the destination bucket as **date-partitioned,
+newline-delimited JSON objects** (one event per line), namespaced by vendor and
+product/dataset. The layout below is reconstructed from these samples — the
+bucket name comes from the export manifest, and the object-key path is taken
+directly from the `_bundle_id` field carried on every forwarded event:
+
+```
+gs://xdr-<region>-<TENANT_ID>-event-forwarding/     # e.g. xdr-eu-<TENANT_ID>-event-forwarding
+└── PANW/                                            # vendor namespace
+    ├── cwp_packages/                                # <product> — Cloud Workload Protection package inventory
+    │   └── 2026-08-11/                              # <YYYY-MM-DD>  (ingestion date partition)
+    │       ├── packages_<TENANT_ID>_<n>_<asset-hash>_1   # one NDJSON bundle per object
+    │       └── packages_<TENANT_ID>_<n>_<asset-hash>_0   # trailing _<seq> is the bundle sequence
+    └── xdr_data/                                    # endpoint EDR telemetry (same convention*)
+        └── 2026-08-11/
+            └── <bundle files…>
+```
+
+- **Bucket name** — `xdr-<region>-<TENANT_ID>-event-forwarding` (observed:
+  `xdr-eu-2004776267262-event-forwarding`). `<region>` reflects the tenant's
+  data residency (e.g. `eu`); `<TENANT_ID>` is the numeric Cortex tenant id.
+- **Object key** — `PANW/<product>/<YYYY-MM-DD>/<bundle-file>`. Directly
+  observed for CWP via `_bundle_id`, e.g.
+  `PANW/cwp_packages/2026-08-11/packages_<TENANT_ID>_..._<asset-hash>_1`. The
+  trailing `_1` / `_0` is the bundle sequence number for that partition.
+- **Object contents** — NDJSON: one JSON event object per line (as reproduced by
+  [`samples/`](samples/), which splits each bundle back into per-event files).
+- \*`xdr_data` events do **not** carry a `_bundle_id`, so their exact object key
+  is not visible in the data; the `PANW/xdr_data/<date>/…` path above follows the
+  same forwarding convention and is shown for illustration, not asserted.
+
+## Repository layout
 
 ```
 samples/
@@ -97,3 +130,10 @@ Left intact (not sensitive, useful for reference): file/module MD5 & SHA-256
 hashes (software hashes), package names / `purl` / maintainer metadata, ports,
 RFC 1918 private IPs, built-in account names (`SYSTEM`, `LOCAL SERVICE`), and
 the demonstration domain `vandelayindustries.com`.
+
+## License
+
+Released under [CC0 1.0 Universal](LICENSE) (public-domain dedication) — these
+redacted sample shapes may be used freely, without attribution, as a
+format/schema reference. Not an official Palo Alto Networks artifact; "Cortex",
+"Cortex XDR", and "XSIAM" are trademarks of Palo Alto Networks.
