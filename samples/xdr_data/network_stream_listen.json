@@ -1,0 +1,21 @@
+{
+  "action_local_ip": "127.0.0.1",
+  "action_local_port": 51341,
+  "action_remote_ip": null,
+  "action_remote_port": null,
+  "event_id": "NzIzLWJkdS13aW4tMS0xNzg2NDY0MjIyNDkw",
+  "event_sub_type": 1,
+  "event_timestamp": 1786464222490,
+  "event_type": 2,
+  "action_network_creation_time": 1786464534969,
+  "os_actor_primary_user_sid": "S-1-5-18",
+  "os_actor_process_command_line": "\"SenseCM.exe\" \"eyJCYXNlQ25jQ2hhbGxlbmdlVXJsIjoiaHR0cHM6Ly9lZHItbmV1My5ldS5lbmRwb2ludC5zZWN1cml0eS5taWNyb3NvZnQuY29tL2Vkci8iLCJDbGllbnRWZXJzaW9uIjoiMTAuODczNy4yMDM0OC4yNDAyIiwiQ29tbWFuZFBhcmFtZXRlcnMiOiJ7XCJjb3JyZWxhdGlvbklkXCI6XCJ7RDcxRUI4QzUtNTg5MC00MThFLUJCRTgtNzg0NzIwRkEyRjM2fVwiLFwic2NyaXB0c0NvbmZpZ1NpZ25hdHVyZVwiOlwiOC9sMzlGenhxSDE0eEpxS09GNHk4N1ZIb3ZtNDdLM0tWWEMvbGE2Mmh4V1FTdnJaUzQ4cGIva2pKZ3FaRGU5SUhMcVowNzRRQ0dQNW5IUUEvbGVjampBSVNPZVFEQnNqUHpqYUR5V2VTZ3VybE1ZejUyb3NFTUVMQ3FjeTk1M0kvMUhic0ZBcU5LQjcwUFdxU0sxQkFqWHFwT1pzMFdUNis0N2xBdzlUUWhVQWJEOTFTaEpnU0NNRm9QcU5GdEwvYlp5NkEzZjRGY09QREdFSkFpczQraFEvRXRuVjJJL1A4amRocWFiUXJDRjQzRUNBRlB1OVRONzVLZU5DSDl6eXpveEJFNEo1dTJxNC9wZXJ6UVFCblNFcmltSjkzRU5nd3hjTVVQRU1ObnovaFI1TTlmMnBDbmxLdDJUWG5xdGtISzkvMlAzZVI2U0Nxa2ErazZqNG93PT1cIn0iLCJDb21tYW5kVHlwZSI6IkNoZWNrSW4iLCJNYWNoaW5lSWQiOiI1MmVhYmViMzJhZTViZTg0ZTE3MDJjZGIxNGUyZWM4ZTRmNGI0NWE2IiwiT3JnSWQiOiJiMWMzNTFlNS04ODM5LTQ2M2EtYTRjZi1iMmUxZThjMzVjODUiLCJQcm94eUluZm9ybWF0aW9uIjp7IkNuY1Byb3h5IjoiIiwiTWVtUHJveHkiOiIifX0=\"",
+  "os_actor_process_image_name": "sensecm.exe",
+  "os_actor_process_image_path": "c:\\program files\\windows defender advanced threat protection\\sensecm.exe",
+  "os_actor_process_instance_id": "NTJlYWJlYjMyYWU1YmU4NGUxNzAyY2RiMTRlMmVjOGU0ZjRiNDVhNi0yNjE2LTE3ODY0NjQyMjI=",
+  "os_actor_process_os_pid": 2616,
+  "agent_hostname": "bdu-win-1",
+  "agent_id": "AGENT_ID_5",
+  "agent_os_type": 1,
+  "action_network_protocol": 6
+}

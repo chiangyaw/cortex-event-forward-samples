@@ -1,0 +1,54 @@
+{
+  "event_type": 6,
+  "event_sub_type": 1,
+  "event_version": 29,
+  "event_timestamp": 1786464001938,
+  "event_id": "AAABn/GNXNoh4YQXAFfbFw==",
+  "os_actor_process_instance_id": "Ad0pqncuwX8AABKAAAAAAA==",
+  "os_actor_thread_thread_id": 3192,
+  "action_module_path": "C:\\Windows\\System32\\bcrypt.dll",
+  "action_module_base_address": "140720088481792",
+  "action_module_image_size": 155648,
+  "action_module_signature_status": 1,
+  "action_module_signature_product": "Microsoft Windows",
+  "action_module_signature_vendor": "Microsoft Corporation",
+  "action_module_signature_is_embedded": true,
+  "action_module_md5": "d58d116b49c968a084aaa1062fe5639e",
+  "action_module_sha256": "62aa27b7128aec13b13487f74e5cfc348e5ff7078f715a6ceed02c9209afa882",
+  "action_module_file_info": "{\"company\":\"Microsoft Corporation\",\"description\":\"Windows Cryptographic Primitives Library\",\"product_name\":\"Microsoft\u00ae Windows\u00ae Operating System\",\"product_version\":\"10.0.17763.9020\",\"file_version\":\"10.0.17763.9020 (WinBuild.160101.0800)\",\"internal_name\":\"bcrypt.dll\",\"original_name\":\"bcrypt.dll\",\"legal_copyright\":\"\u00a9 Microsoft Corporation. All rights reserved.\",\"entropy\":\"0.791186\",\"chisq_prob\":\"0.000000\",\"montepi_err\":\"0.131364\"}",
+  "action_module_last_writer_actor": "Ad0UcMlvubwAAB5IAAAAAA==",
+  "action_module_system_properties": 115715,
+  "action_module_code_integrity": 4294901760,
+  "action_module_boot_code_integrity": 4294901760,
+  "os_actor_process_image_path": "C:\\Windows\\System32\\wsqmcons.exe",
+  "os_actor_process_image_name": "wsqmcons.exe",
+  "os_actor_process_command_line": "\"C:\\Windows\\System32\\wsqmcons.exe\"",
+  "os_actor_process_signature_status": 1,
+  "os_actor_process_image_md5": "83850dabba3115add01d416d274254f8",
+  "os_actor_process_image_sha256": "756d691be2e3e5c810a00f3143b6fe766e98262df53c2999d439e3117147d711",
+  "os_actor_process_logon_id": "70717",
+  "os_actor_process_os_pid": 4736,
+  "os_actor_primary_user_sid": "S-1-5-18",
+  "os_actor_primary_username": "NT AUTHORITY\\SYSTEM",
+  "agent_content_version": "2370-39889",
+  "agent_hostname": "DC01",
+  "agent_interface_map": [
+    {
+      "ipv4": [
+        "192.168.1.100"
+      ],
+      "ipv4_subnet_mask": [
+        "255.255.255.0"
+      ],
+      "ipv6": [],
+      "ipv6_subnet_mask": [],
+      "mac": "00:22:48:39:6e:2c"
+    }
+  ],
+  "agent_ip_addresses_v6": null,
+  "agent_os_sub_type": "Windows Server 2019 [10.0 (Build 17763)]",
+  "agent_os_type": 1,
+  "agent_version": "203.0.113.12",
+  "agent_id": "AGENT_ID_3",
+  "agent_ip_addresses": "192.168.1.100"
+}

@@ -1,0 +1,47 @@
+{
+  "event_type": 1,
+  "event_sub_type": 2,
+  "event_version": 29,
+  "event_timestamp": 1786463797328,
+  "event_id": "AAABn/GKQCEdE/OPAQCUgg==",
+  "os_actor_process_instance_id": "Ad0YPO22aaIAAAM0AAAAAA==",
+  "os_actor_thread_thread_id": 7220,
+  "action_process_os_pid": 7548,
+  "action_process_instance_id": "Ad0pqZInLmUAAB18AAAAAA==",
+  "action_process_integrity_level": 0,
+  "action_process_termination_date": 1786463797328,
+  "action_process_instance_execution_time": 1786463616964,
+  "action_process_termination_code": 0,
+  "uuid": "AAABn/GKQCEdE/OPAQCUgg==",
+  "os_actor_process_image_path": "C:\\Windows\\System32\\services.exe",
+  "os_actor_process_image_name": "services.exe",
+  "os_actor_process_command_line": "C:\\Windows\\system32\\services.exe",
+  "os_actor_process_signature_status": 1,
+  "os_actor_process_image_md5": "852ee5587d6cb0b8b17e981fe84a31d4",
+  "os_actor_process_image_sha256": "4a912dc98c977788131aad0ae468d86792211ed225f80b2c344a3690b4437428",
+  "os_actor_process_logon_id": "1003",
+  "os_actor_process_os_pid": 820,
+  "os_actor_primary_user_sid": "S-1-5-18",
+  "os_actor_primary_username": "NT AUTHORITY\\SYSTEM",
+  "agent_content_version": "2370-39889",
+  "agent_hostname": "LAB-WIN10-02",
+  "agent_interface_map": [
+    {
+      "ipv4": [
+        "192.168.6.157"
+      ],
+      "ipv4_subnet_mask": [
+        "255.255.255.0"
+      ],
+      "ipv6": [],
+      "ipv6_subnet_mask": [],
+      "mac": "00:15:5d:1e:ea:02"
+    }
+  ],
+  "agent_ip_addresses_v6": null,
+  "agent_os_sub_type": "Windows 10 [10.0 (Build 19045)]",
+  "agent_os_type": 1,
+  "agent_version": "203.0.113.11",
+  "agent_id": "AGENT_ID_2",
+  "agent_ip_addresses": "192.168.6.157"
+}

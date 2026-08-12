@@ -1,0 +1,20 @@
+{
+  "action_registry_data": null,
+  "action_registry_key_name": "HKEY_LOCAL_MACHINE\\SYSTEM\\ControlSet001\\Services\\NcbService\\NCBKapiNlmCache\\2",
+  "action_registry_old_key_name": null,
+  "action_registry_value_name": null,
+  "action_registry_value_type": 0,
+  "event_id": "MzM5LWJkdS13aW4tMS0xNzg2NDYwNTMyNzc1",
+  "event_sub_type": 1,
+  "event_timestamp": 1786460532775,
+  "event_type": 4,
+  "os_actor_primary_user_sid": "S-1-5-18",
+  "os_actor_process_command_line": "svchost.exe -k LocalSystemNetworkRestricted -p -s NcbService",
+  "os_actor_process_image_name": "svchost.exe",
+  "os_actor_process_image_path": "c:\\windows\\system32\\svchost.exe",
+  "os_actor_process_instance_id": "NTJlYWJlYjMyYWU1YmU4NGUxNzAyY2RiMTRlMmVjOGU0ZjRiNDVhNi0xODQ0LTE3ODY0MzQyOTI=",
+  "os_actor_process_os_pid": 1844,
+  "agent_hostname": "bdu-win-1",
+  "agent_id": "AGENT_ID_5",
+  "agent_os_type": 1
+}

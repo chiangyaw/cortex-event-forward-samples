@@ -1,0 +1,48 @@
+{
+  "event_type": 3,
+  "event_sub_type": 5,
+  "event_version": 29,
+  "event_timestamp": 1786464250419,
+  "event_id": "AAABn/GRKeLd+YyiAFwCWg==",
+  "os_actor_process_instance_id": "Ad0Z5OiqlSAAACZgAAAAAA==",
+  "os_actor_thread_thread_id": 10196,
+  "action_file_path": "C:\\Users\\USER\\AppData\\Roaming\\Cursor\\process-monitor\\1786363200000.log",
+  "action_file_name": "1786363200000.log",
+  "action_file_device_type": 0,
+  "action_file_create_time": 1786363448450,
+  "action_file_access_time": 1786431948267,
+  "action_file_last_writer_actor": "IJWq6OQZ3QFgJgAAAAAAAA==",
+  "action_file_type": 0,
+  "action_file_prev_type": 18,
+  "os_actor_process_image_path": "C:\\Users\\USER\\AppData\\Local\\Programs\\cursor\\Cursor.exe",
+  "os_actor_process_image_name": "Cursor.exe",
+  "os_actor_process_command_line": "\"C:\\Users\\USER\\AppData\\Local\\Programs\\cursor\\Cursor.exe\" ",
+  "os_actor_process_signature_status": 1,
+  "os_actor_process_image_md5": "8a8f829d2f8507695232d1e040bc8091",
+  "os_actor_process_image_sha256": "71e8836b4f5040e37501adc95246af80177ba2f8d7c2ae1fa7b16a759a0034e7",
+  "os_actor_process_logon_id": "1003",
+  "os_actor_process_os_pid": 9824,
+  "os_actor_primary_user_sid": "S-1-5-21-0-0-0-500",
+  "os_actor_primary_username": "VANDELAYINDUSTR\\Administrator",
+  "agent_content_version": "2370-39734",
+  "agent_hostname": "LAB-WIN11-01",
+  "agent_interface_map": [
+    {
+      "ipv4": [
+        "192.168.6.158"
+      ],
+      "ipv4_subnet_mask": [
+        "255.255.255.0"
+      ],
+      "ipv6": [],
+      "ipv6_subnet_mask": [],
+      "mac": "00:15:5d:1e:ea:03"
+    }
+  ],
+  "agent_ip_addresses_v6": null,
+  "agent_os_sub_type": "Windows 11 [10.0 (Build 22621)]",
+  "agent_os_type": 1,
+  "agent_version": "203.0.113.11",
+  "agent_id": "AGENT_ID_4",
+  "agent_ip_addresses": "192.168.6.158"
+}
